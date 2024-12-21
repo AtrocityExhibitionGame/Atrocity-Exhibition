@@ -1407,3 +1407,73 @@ LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
 [2024.12.21-21.39.37:122][373]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2024.12.21-21.39.37:123][373]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
 [2024.12.21-21.39.37:151][373]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.12.21-21.41.03:899][886]LogDerivedDataCache: C:/Users/jacob/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: ================================================
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: Total job queries 181, among them cache hits 26 (14.36%), DDC hits 150 (82.87%), Duplicates 3 (1.66%)
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: Tracking 152 distinct input hashes that result in 139 distinct outputs (91.45%)
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: RAM used: 116.39 KiB of 1.60 GiB budget. Usage: 0.01%
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: Time job spent in pending queue: average 0.11 s, longest 0.11 s
+[2024.12.21-21.42.14:582][ 98]LogShaderCompilers: Display: Job execution time: average 2.58 s, max 2.84 s
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Job life time (pending + execution): average 2.69 s, max 2.94
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Shader code size: average 19.363 KiB, min 18.371 KiB, max 20.355 KiB
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.95 s
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Average processing rate: 0.68 jobs/sec
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Total thread time: 4.16 s
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Total thread preprocess time: 5.17 s
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Percentage time preprocessing: 124.27%
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Effective parallelization: 1.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 18
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 2.33 sec, max 2.33 sec, min 2.33 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled    1 times, average 1.83 sec, max 1.83 sec, min 1.83 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 55.95% of total time (compiled    1 times, average 2.33 sec, max 2.33 sec, min 2.33 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:                                                 FLumenCardCS - 44.05% of total time (compiled    1 times, average 1.83 sec, max 1.83 sec, min 1.83 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:                                                  FHitProxyVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display:                                                 FLumenCardVS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: === Material stats ===
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Materials Translated:    134
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Material Translation Only: 0.05 s (55%)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: Material Cache Hits: 28 (21%)
+[2024.12.21-21.42.14:583][ 98]LogShaderCompilers: Display: ================================================
+[2024.12.21-21.44.59:614][593]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 349.712982
+[2024.12.21-21.45.00:614][596]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.21-21.45.00:614][596]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 350.380005, Update Interval: 347.738892
+[2024.12.21-21.47.16:507][355]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch
+[2024.12.21-21.47.16:507][355]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch
+[2024.12.21-21.47.16:508][355]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_27
+[2024.12.21-21.47.19:993][655]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.12.21-21.47.19:996][655]LogEditorActor: Deleted 0 Actors (0.025 secs)
+[2024.12.21-21.47.25:350][ 59]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch
+[2024.12.21-21.47.25:350][ 59]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch
+[2024.12.21-21.47.25:351][ 59]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_28
+[2024.12.21-21.47.27:090][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.12.21-21.47.27:092][240]LogEditorActor: Deleted 0 Actors (0.015 secs)
+[2024.12.21-21.47.27:101][240]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch
+[2024.12.21-21.47.27:101][240]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch
+[2024.12.21-21.47.27:103][240]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Couch.SM_Couch as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_1831BFB07029003B02_1435977801
+[2024.12.21-21.47.28:682][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.21-21.47.28:759][346]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VG/G5R5TBM39ZS9KGZJO4QKYS
+[2024.12.21-21.47.28:759][346]LogSavePackage: Moving '../../../../../../Users/jacob/Documents/GitHub/Atrocity-Exhibition/AtrocityExhibition/Saved/G5R5TBM39ZS9KGZJO4QKYS8FF38EB64534FAFD4D84848C656846C0.tmp' to '../../../../../../Users/jacob/Documents/GitHub/Atrocity-Exhibition/AtrocityExhibition/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/VG/G5R5TBM39ZS9KGZJO4QKYS.uasset'
+[2024.12.21-21.47.28:769][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 87.619 ms (total: 233.773 ms)
+[2024.12.21-21.47.28:824][346]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.21-21.47.28:824][346]LogContentValidation: Enabled validators:
+[2024.12.21-21.47.28:824][346]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.21-21.47.28:824][346]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.21-21.47.28:824][346]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.21-21.47.28:824][346]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.21-21.47.28:824][346]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.21-21.47.28:824][346]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.21-21.47.28:825][346]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
