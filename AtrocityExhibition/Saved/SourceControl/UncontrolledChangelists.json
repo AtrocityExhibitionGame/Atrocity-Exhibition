@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/jacob/Documents/GitHub/Atrocity-Exhibition/AtrocityExhibition/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/jacob/Documents/GitHub/Atrocity-Exhibition/AtrocityExhibition/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/QP/O5BOR0DKKMLDMRNLZKW5RF.uasset",
+				"C:/Users/jacob/Documents/GitHub/Atrocity-Exhibition/AtrocityExhibition/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/2/GH/LKWGRYWGXQEOZ66HPOKCUZ.uasset"
+			]
+		}
+	]
+}
