@@ -1477,3 +1477,24 @@ LogConfig: Set CVar [[r.PSOPrecache.GlobalShaders:1]]
 [2024.12.21-21.47.28:824][346]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2024.12.21-21.47.28:824][346]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2024.12.21-21.47.28:825][346]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2024.12.21-21.50.23:464][665]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.12.21-21.50.23:464][665]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.12.21-21.50.23:464][665]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_29
+[2024.12.21-21.50.26:531][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.12.21-21.50.26:533][  0]LogEditorActor: Deleted 0 Actors (0.018 secs)
+[2024.12.21-21.50.26:541][  0]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.12.21-21.50.26:541][  0]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair
+[2024.12.21-21.50.26:543][  0]LogActorFactory: Actor Factory spawned StaticMesh /Game/StarterContent/Props/SM_Chair.SM_Chair as actor: StaticMeshActor /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap:PersistentLevel.StaticMeshActor_UAID_1831BFB07029003B02_1615417802
+[2024.12.21-21.50.27:809][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.21-21.50.27:868][ 91]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/E8/2I0T5EYAUKL3P167QTHD6X
+[2024.12.21-21.50.27:868][ 91]LogSavePackage: Moving '../../../../../../Users/jacob/Documents/GitHub/Atrocity-Exhibition/AtrocityExhibition/Saved/2I0T5EYAUKL3P167QTHD6X7DD3348349BC96B055C7B68B0FAD3790.tmp' to '../../../../../../Users/jacob/Documents/GitHub/Atrocity-Exhibition/AtrocityExhibition/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/C/E8/2I0T5EYAUKL3P167QTHD6X.uasset'
+[2024.12.21-21.50.27:879][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.186 ms (total: 303.959 ms)
+[2024.12.21-21.50.27:932][ 91]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.21-21.50.27:932][ 91]LogContentValidation: Enabled validators:
+[2024.12.21-21.50.27:932][ 91]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.21-21.50.27:932][ 91]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.21-21.50.27:932][ 91]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.21-21.50.27:932][ 91]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.21-21.50.27:932][ 91]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.21-21.50.27:932][ 91]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.21-21.50.27:932][ 91]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
